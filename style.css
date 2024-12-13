@@ -1,0 +1,376 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    
+}
+.nav-links{
+    display: flex;
+    gap: 1em;
+    text-wrap: wrap;
+}
+
+.nav-links a{
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.logo{
+    font-family: 'Abyssinica SIL';
+font-size: 42px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.content{
+    padding-top: 3rem ;
+    text-align: center;
+    
+    
+   
+}
+.hero img{
+    max-width: 100%;
+    max-height: 40%;
+    object-fit: contain;
+}
+
+.hero h1{
+    font-family: 'BIZ UDPMincho';
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.layout{
+    font-family: 'BIZ UDPMincho';
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background: linear-gradient(171.51deg, rgba(242, 246, 245, 0.7) 43.65%, rgba(25, 51, 45, 0.042) 141.61%);
+
+
+}
+.img-div{
+    width: 1440px;
+height: 680px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.img-div img{
+    width: 1440px;
+height: 785px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.about{
+    width: Fill (1,344px)px;
+height: Hug (400px)px;
+padding: 96px 0px 96px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.text-container{
+    width: 672px;
+height: 208px;
+gap: 0px;
+opacity: 0px;
+font-family: 'BIZ UDPMincho';
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.stati{
+    width: Fill (1,344px)px;
+height: Hug (200px)px;
+padding: 48px 0px 48px 0px;
+gap: 60px;
+opacity: 0px;
+
+}
+
+.tc1{
+    width: 648px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+font-family: 'BIZ UDPMincho';
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background: rgba(242, 246, 245, 1);
+}
+
+.main-container{
+    width: 100%;
+height: auto;
+padding: 48px 0px 48px 0px;
+gap: 0px;
+opacity: 0px;
+background-color: rgba(242, 246, 245, 1);
+
+}
+
+.tabelco{
+
+    width: Fill (648px)px;
+height: Hug (104px)px;
+gap: 16px;
+opacity: 0px;
+
+}
+
+.stati{
+    display: flex;
+}
+
+td{
+    font-family:'Gothic A1',;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 300px;
+height: 24px;
+
+opacity: 0px;
+
+}
+
+tr{
+    width: 300px;
+height: 24px;
+gap: 80px;
+opacity: 0px;
+
+
+
+
+}
+
+.metrics{
+    width:100%;
+
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    background: rgba(242, 246, 245, 1);
+    display: flex;
+
+}
+.txt{
+    width: 648px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+font-family: 'BIZ UDPMincho';
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
+
+:root {
+    --font-primary: 'BIZ UDPMincho', serif;
+    --font-secondary: 'Gothic A1', sans-serif;
+    --text-color: #000;
+  }
+  
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .stat {
+    text-align: left;
+    padding: 16px 0;
+    border-top: 1px solid var(--text-color);
+  }
+  
+  .stat-value {
+    display: block;
+    font-family: var(--font-primary);
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+  
+  .stat-label {
+    display: block;
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+
+
+  :root {
+    --font-primary: 'Gothic A1', sans-serif;
+    --text-color: #000;
+  }
+  
+  .mc {
+    display: flex;
+    flex-direction: column;
+    width: Fill (648px)px;
+height: Hug (104px)px;
+gap: 16px;
+opacity: 0px;
+
+  }
+  
+  .row, .row-1, .row-2 {
+    display: flex;
+    gap: 48px;
+    align-items: left;
+    width: Fill (648px)px;
+height: Hug (24px)px;
+gap: 48px;
+opacity: 0px;
+
+  }
+  
+  span {
+    flex-grow: 1;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    color: var(--text-color);
+    overflow: hidden;
+    white-space: nowrap;
+   
+  }
+
+
+  .grid-background {
+    height: 200px;
+    background: linear-gradient(to bottom, transparent, #000),
+        url('grid.jpg') no-repeat center/cover;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.portfolio-item p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.portfolio-item span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.review img{
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+/* Add individual image placeholders (links can be added later) */
+.revcont{
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+.lat{
+    font-family: BIZ UDPMincho;
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+button{
+    width: Hug (169px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 8px;
+border: 1px solid;
+}
+
+
+
+.dv{
+    width: Hug (198px)px;
+height: Hug (32px)px;
+gap: 32px;
+opacity: 0px;
+
+}
+.foot{
+    display: inline-flex;
+    width: Fill (1,344px)px;
+    height: Hug (48px)px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    
+
+}
